@@ -1,0 +1,38 @@
+.container {
+    border:1px tomato solid;
+    width: 1000px;
+}
+
+header,
+nav, 
+section,
+aside,
+article,
+footer {
+    border:1px grey solid;
+    height: 50px;
+    padding:20px;
+    margin:10px;
+    text-align:center;
+
+}
+
+.d-flex {
+    display:flex;
+
+}
+.content {
+    flex: 1;
+
+}
+aside {
+width: 200px;
+height: 152px;
+
+}
+header {
+    border-color: coral;
+}
+nav{
+    border-color:rgba(13, 169, 42, 0.74);
+}
