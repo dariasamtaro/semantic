@@ -1,5 +1,5 @@
 .container {
-    border:1px tomato solid;
+    border:1px blue;
     width: 1000px;
 }
 
@@ -9,7 +9,7 @@ section,
 aside,
 article,
 footer {
-    border:1px grey solid;
+    border:1px purple;
     height: 50px;
     padding:20px;
     margin:10px;
@@ -19,7 +19,8 @@ footer {
 
 .d-flex {
     display:flex;
-
+    justify-content: space-between;
+    align-items: flex-start;    
 }
 .content {
     flex: 1;
@@ -28,11 +29,11 @@ footer {
 aside {
 width: 200px;
 height: 152px;
-
+border-color: red;
 }
 header {
-    border-color: coral;
+    border-color: rgb(80, 124, 255);
 }
 nav{
-    border-color:rgba(13, 169, 42, 0.74);
+    border-color: rgba(13, 169, 42, 0.74);
 }
