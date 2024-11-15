@@ -9,7 +9,7 @@ section,
 aside,
 article,
 footer {
-    border:1px purple;
+    border:1px solid purple;
     height: 50px;
     padding:20px;
     margin:10px;
